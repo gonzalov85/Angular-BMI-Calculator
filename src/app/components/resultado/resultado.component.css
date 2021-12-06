@@ -1,0 +1,21 @@
+.fondoItem{
+    background-color: #FF111328;
+    height: 430px;
+    border-radius: 20px;
+    color:white;
+}
+
+.resultado{
+    color: #12BD45;
+    font-size: 28px;
+    text-transform: uppercase;
+}
+
+.numeroBMI{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.textoInterpretacion{
+    font-size: 28px;
+}

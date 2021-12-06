@@ -5,8 +5,8 @@ import { ResultadoComponent } from './components/resultado/resultado.component';
 
 const routes: Routes = [
   {path: '', component: InicioComponent},
-  {path: 'resultado', component: ResultadoComponent},
-  {path: '**', redirectTo: ''}
+  {path: 'resultado/:value', component: ResultadoComponent},
+  {path: '**', redirectTo: ''} //redirecciona cualquier path a inicio
 ];
 
 @NgModule({
