@@ -33,4 +33,30 @@ export class InicioComponent implements OnInit {
       const bmi = this.peso / Math.pow((this.altura / 100),2);
       this.router.navigate(['/resultado', bmi.toFixed(1)]);
   }
+
+  restaPeso(){
+    if(this.peso.toString() != "1"){
+      this.peso -=1;
+    } else {
+      this.peso = 1;
+    }
+  }
+
+  sumaPeso(){
+  this.peso +=1;
+  }
+
+  restaEdad(){
+    if(this.edad.toString() != "1"){
+      this.edad -=1;
+    } else {
+      this.edad = 1;
+    }
+  }
+
+  sumaEdad(){
+  this.edad +=1;
+  }
 }
+
+
